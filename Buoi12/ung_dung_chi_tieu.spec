@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['ung_dung_tu_sach.py'],
+    ['ung_dung_chi_tieu.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='ung_dung_tu_sach',
+    name='ung_dung_chi_tieu',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
